@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Sen:wght@400..800&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.bordes {
+    border-style: double;
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* TITULOS */
+h1 {
+    font-family: "Bangers", serif;
+    font-size: 60px;
+    z-index: 20;
+
+    padding: 25px;
+    backdrop-filter: blur(8px);
+    border-radius: 8%;
+   
+
+}
+
+h2 {
+    font-family: "Bangers", serif;
+    background-image: url(../IMG/decora/flor_cerezo.webp);
+    margin-bottom: 20px;
+    margin-top: 2rem;
+    box-shadow: 0px 22px 18px 0px rgba(173, 95, 95, 0.55);
+
+}
+
+p {
+    font-family: "Sen", sans-serif;
+    font-size: 20px;
+}
+
+li {
+    font-family: "Sen", sans-serif;
+    font-size: 17px;
+}
+
+.btn-link {
+    color: rgb(248, 118, 118);
+    font-family: "Sen", sans-serif;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.btn-link:hover {
+    color: rgb(182, 113, 228);
+}
+
+
+/* BARRA */
+.barranav {
+    background-color: rgb(248, 234, 237);
+    padding: 5px;
+    z-index: 10000;
+}
+
+#offcanvas {
+    z-index: 100000;
+}
+
+main {
+    background-color: rgb(253, 252, 252);
+}
+
+
+footer {
+    background-color: rgb(248, 234, 237);
+
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-color: brown;
+    --bs-nav-tabs-link-hover-border-color: brown;
+    --bs-nav-tabs-link-active-color: brown;
+    --bs-nav-tabs-link-active-bg: rgb(228, 199, 199);
+    --bs-nav-tabs-link-active-border-color: brown;
+}
+
+.btn {
+    --bs-btn-border-color: rgb(211, 132, 132);
+    --bs-btn-hover-border-color: brown;
+    --bs-btn-color: rgb(211, 132, 132);
+    --bs-btn-hover-bg: rgb(228, 199, 199);
+
+}
+
+
+/* INDEX */
+
+.index{
+    
+    background-color: #574b4b;
+}
+
+.blanco-h2{
+    background-blend-mode:overlay;
+    background-color: #574b4b;
+    color: rgb(245, 238, 240);
+}
+
+.blanco{
+    color: rgb(253, 247, 249);
+}
+
+
+
+.pt-sm-1 {
+    padding-top: 3rem !important;
+
+}
+
+.inicio {
+
+    background-image: url(../IMG/decora/lluviadepetalos.webp);
+    background-color: #574b4b;
+    background-blend-mode:overlay;
+
+
+}
+
+
+.sombra {
+
+    box-shadow: 0px 0px 37px 28px rgba(189, 40, 47, 0.29);
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+.alto {
+    height: 3.5rem;
+}
+
+.img-bordes {
+    border-radius: 5%;
+    border-style: groove;
+}
+
+
+.zoom {
+    transition: transform .3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    margin-bottom: 40px;
+}
+
+
+
+/* FORMULARIO */
+.contacto {
+    background: rgb(209, 179, 221);
+    background: linear-gradient(0deg, rgba(209, 179, 221, 1) 0%, rgba(255, 206, 193, 1) 65%);
+}
+
+form {
+    background-image: url(../IMG/decora/Katsuki-Bakugo.webp);
+    background-repeat: no-repeat;
+}
+
+
+legend {
+    background-color: rgba(250, 235, 215, 0.616);
+    padding: 10px;
+}
+
+.input-font-family {
+    font-family: "Sen", sans-serif;
+}
+
+.btn-secondary{
+    --bs-btn-border-color: rgb(77, 30, 30);
+    --bs-btn-hover-border-color: rgb(77, 30, 30);
+    --bs-btn-color: rgb(207, 188, 188);;
+    --bs-btn-bg: rgb(77, 30, 30);
+    --bs-btn-hover-bg: rgb(177, 139, 139);
+}
+
+/* PRODUCTO */
+.t-rojo{
+    color: rgb(170, 30, 30);
+}
+
+.agotado{
+    opacity: 50%;
+}
+
+
+/* DETALLE */
+.sec-detalles {
+    background: rgb(215, 195, 223);
+    background: linear-gradient(0deg, rgba(215, 195, 223, 1) 0%, rgba(255, 232, 225, 1) 63%);
+
+}
+
+
+/* FOOTER */
+
+.img-footer {
+    border-radius: 50%;
+    border-style: double;
+
+}
+
+.list-footer {
+    list-style: none;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .navbar-brand{
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    .img-recorte {
+
+        padding-left: calc(var(--bs-gutter-x)* .0);
+    }
+
+    .img-bordes {
+        width: 280px;
+    }
+
+    .img-footer {
+        width: 280px;
+    }
+
+    .achicar{
+        width: 200px;
+    }
+
+}

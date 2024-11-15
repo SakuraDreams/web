@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Dreams</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+
+    <link rel="apple-touch-icon" sizes="57x57" href="IMG/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="IMG/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="IMG/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="IMG/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="IMG/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="IMG/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="IMG/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="IMG/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMG/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="IMG/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="IMG/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon/favicon-16x16.png">
+    <link rel="manifest" href="IMG/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="IMG/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top barranav">
+            <div class="container-fluid">
+                <div>
+                    <img src="IMG/decora/sakuradream.webp"
+                        alt="icono de 'sakura dream' el cual es una especie de flor de cerezo" class="logo">
+                    <a class="navbar-brand" href="#">Sakura Dreams</a>
+                </div>
+
+                <div class="top-2 start-1">
+
+                    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvas"><i class="bi bi-cart2"></i></a>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions">
+                    </div>
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-2" id="navbarNav">
+                    <ul class="navbar-nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conveciones.html">Convenciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main class="sec-detalles">
+        <div>
+            <h1 class="text-center  pt-5"> Sakura Dreams</h1>
+        </div>
+
+        <section>
+            <h2 class="text-center"> Detalles del producto </h2>
+            <div class=" pb-3">
+                <div class="row g-0 " id="producto">
+                    <div class="col-12 col-sm-12 col-md-4  col-lg-4  text-center d-flex align-items-center justify-content-around"
+                        id="imagen">
+                        <!-- Imagen -->
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-5 bordes p-2 d-flex align-items-center">
+                        <!-- Información -->
+                        <div id="detalles" class="p-3">
+                            <!-- <h3 class="card-title">Producto</h3>
+                            <p class="card-text">Descripción del producto</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+
+                            <button type="button" class="btn btn-secondary">Agregar al carrito</button>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="p-2">
+                            <h3 class="card-title">Modos de pago</h3>
+                            <img src="IMG/productos/metodos-de-pago.webp" alt="diferentes modos de pago que se aceptan, entre ellas las tarjetas visa, mastercard, american express y medios digitales como paypaly y mercado pago">
+                            <h3 class="card-title"> Modos de envio</h3>
+                            <img src="IMG/productos/envios.webp" alt="muestra de los modos que puedes elegir para que te envien el producto, como oca, correo argentino y andreani. También incluye unos iconos en linea de un auto, un camión y un indicador de ubicación">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- //CARRITO -->
+    <section>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas">
+          <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasLabel">Carrito</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <span>Su carrito esta vacío </span>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center align-items-center justify-content-around p-2">
+                <div class=" col-sm-12 col-md-3">
+                    <ul class="list-footer">
+                        <li>Lara Florian</li>
+                        <li>15/7/2005</li>
+                        <li>Estudiante de Da Vinci</li>
+                        <li>lara.florian@davinci.edu.ar</li>
+                    </ul>
+                </div>
+                <div class=" col-sm-12 col-md-6">
+                    <img src="IMG/footer/fotomia.webp" alt="creadora de la web, chica pelirroja con anteojos"
+                        class="img-footer p-2">
+                </div>
+                <div class=" col-sm-12 col-md-3">
+                    <div class="vr">
+                        <a href="mailto:lara.florian@davinci.edu.ar"><img src="IMG/footer/icon_gmail.webp"
+                                alt="un sobre que representa el icono de gmail"> </a>
+                        <a href="https://www.instagram.com/lara_liancy/"><img src="IMG/footer/insta_icon.webp"
+                                alt="icono de instagram"></a>
+
+                        <img src="IMG/footer/twitter_icon.webp" alt="una X icono del anterior Twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
